@@ -1,4 +1,4 @@
-import { useScrollProgress } from '../hooks/useScrollProgress';
+import { useScrollProgress } from '../useScrollProgress';
 
 export default function ScrollProgress() {
   const progress = useScrollProgress();

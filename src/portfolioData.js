@@ -1,0 +1,139 @@
+import profilePic from './assets/profile.jpg';
+
+export const personalInfo = {
+  name: 'Sathyasai',
+  role: 'Software Developer',
+  tagline: 'Focused on full-stack development, AIML & DataSience',
+  email: 'sathyasai@gmail.com',
+  github: 'https://github.com/ssathyasai',
+  linkedin: 'linkedin.com/in/ssathyasai',
+  resumeLink: '#',
+  profilePic,
+};
+
+export const aboutText = `I'm a passionate software developer with a strong foundation in full-stack
+development, machine learning, and data analysis. I thrive on turning complex
+problems into elegant, efficient solutions — whether that's building scalable
+web applications or extracting meaningful insights from data. I'm driven by
+curiosity, a love for clean code, and the belief that great software can make
+a real difference.`;
+
+export const skills = [
+  {
+    category: 'Frontend',
+    icon: '🖥️',
+    items: [
+      { name: 'HTML', level: 90 },
+      { name: 'CSS', level: 85 },
+      { name: 'JavaScript', level: 88 },
+      { name: 'React', level: 85 },
+    ],
+  },
+  {
+    category: 'Backend',
+    icon: '⚙️',
+    items: [
+      { name: 'Node.js', level: 80 },
+      { name: 'Express.js', level: 78 },
+      { name: 'Python', level: 85 },
+      { name: 'MongoDB', level: 75 },
+    ],
+  },
+  {
+    category: 'AI / ML',
+    icon: '🤖',
+    items: [
+      { name: 'Machine Learning', level: 80 },
+      { name: 'Deep Learning', level: 75 },
+      { name: 'NLP', level: 72 },
+      { name: 'Generative AI', level: 70 },
+    ],
+  },
+  {
+    category: 'Data Analysis',
+    icon: '📊',
+    items: [
+      { name: 'NumPy', level: 82 },
+      { name: 'Pandas', level: 85 },
+      { name: 'Matplotlib', level: 80 },
+      { name: 'Seaborn', level: 78 },
+      { name: 'EDA', level: 83 },
+    ],
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: 'MediConnect',
+    description:
+      'A user-friendly healthcare platform that simplifies personal health management, improves accessibility, and helps users stay connected with essential healthcare services.',
+    tech: ['HTML5', 'CSS3', 'JavaScript'],
+    github: 'https://github.com/ssathyasai/mediconnect.git',
+    live: 'https://ecommerce-demo.vercel.app',
+    icon: '🏥',
+    featured: true,
+  },
+  {
+    id: 2,
+    title: 'CleanX',
+    description:
+      'A data transformation platform that automates CSV data cleaning and builds reliable, structured datasets for seamless analysis and model readiness.',
+    tech: ['Python', 'Python Libraries', 'HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/ssathyasai/CleanX.git',
+    live: null,
+    icon: '🧹',
+    featured: true,
+  },
+  {
+    id: 3,
+    title: 'SMS Spam Transformer Model',
+    description:
+      'A spam detection system designed to identify and filter spam messages efficiently, providing accurate and real-time message classification through a web application.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Python Libraries', 'Deep Learning'],
+    github: 'https://github.com/ssathyasai/SMS_Spam_Transformer_Model.git',
+    live: 'https://data-dashboard-demo.vercel.app',
+    icon: '🛡️',
+    featured: false,
+  },
+  {
+    id: 4,
+    title: 'Civic 360',
+    description:
+      'CivicConnect is a civic engagement platform that connects citizens with local authorities for issue reporting, resolution tracking, and community collaboration.',
+    tech: ['React', 'Node.js', 'Express js', 'MongoDB', 'Tailwind CSS'],
+    github: 'https://github.com/ssathyasai/Civic-360.git',
+    live: 'https://taskmanager-demo.vercel.app',
+    icon: '🏛️',
+    featured: false,
+  },
+];
+
+export const experience = [
+  {
+    id: 1,
+    role: 'Data Science Master Virtual Intern',
+    company: 'Altair',
+    duration: '2024',
+    type: 'Virtual Internship',
+    bullets: [
+      "Analysed real-world datasets to identify patterns and trends",
+	    "Applied machine learning concepts for basic predictive tasks",
+	    "Created visualizations to communicate insights effective" 
+,
+    ],
+  },
+  {
+    id: 2,
+    role: 'Data Analytics Process Automation',
+    company: 'Alteryx',
+    duration: '2025',
+    type: 'Virtual Internship',
+    bullets: [
+      "Performed end-to-end data cleaning, filtering and joining using Designer workflows",
+      "Strengthened practical data preparation and workflow automation skills",
+      "Applied data transformation techniques to prepare analysis-ready datasets"
+
+    ],
+  },
+];

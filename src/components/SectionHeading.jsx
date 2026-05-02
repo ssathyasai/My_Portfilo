@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useTheme } from '../context/ThemeContext';
+import { useTheme } from '../ThemeContext';
 
 export default function SectionHeading({ label, title, subtitle }) {
   const { isDark } = useTheme();

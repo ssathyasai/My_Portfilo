@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion';
 import { FiCode, FiDatabase, FiCpu, FiZap } from 'react-icons/fi';
-import { aboutText } from '../data/portfolioData';
-import { useTheme } from '../context/ThemeContext';
+import { aboutText } from '../portfolioData';
+import { useTheme } from '../ThemeContext';
 import SectionHeading from './SectionHeading';
 
 const strengths = [
   { icon: FiCode, label: 'Full-Stack Dev', desc: 'End-to-end web applications' },
   { icon: FiCpu, label: 'Machine Learning', desc: 'Predictive models & NLP' },
   { icon: FiDatabase, label: 'Data Analysis', desc: 'Insights from complex data' },
-  { icon: FiZap, label: 'Problem Solver', desc: 'Clean, efficient solutions' },
+  { icon: FiZap, label: 'DSA problem Solver', desc: 'Clean, efficient solutions' },
 ];
 
 export default function About() {
@@ -42,20 +42,7 @@ export default function About() {
             >
               {aboutText}
             </p>
-            <div className="flex flex-wrap gap-3">
-              {['Open to Work', 'Full-Stack', 'ML Enthusiast', 'Data-Driven'].map((tag) => (
-                <span
-                  key={tag}
-                  className={`px-3 py-1 rounded-full text-xs font-semibold ${
-                    isDark
-                      ? 'bg-[#6c63ff]/20 text-[#a89cff] border border-[#6c63ff]/30'
-                      : 'bg-[#6c63ff]/10 text-[#6c63ff] border border-[#6c63ff]/20'
-                  }`}
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
+            
           </motion.div>
 
           {/* Strength cards */}

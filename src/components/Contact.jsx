@@ -1,27 +1,27 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FiMail, FiGithub, FiLinkedin, FiSend, FiCheck } from 'react-icons/fi';
-import { personalInfo } from '../data/portfolioData';
-import { useTheme } from '../context/ThemeContext';
+import { personalInfo } from '../portfolioData';
+import { useTheme } from '../ThemeContext';
 import SectionHeading from './SectionHeading';
 
 const contactLinks = [
   {
     icon: FiMail,
     label: 'Email',
-    value: personalInfo.email,
+    value: 'sathyasai1357@gmail.com',
     href: `mailto:${personalInfo.email}`,
   },
   {
     icon: FiGithub,
     label: 'GitHub',
-    value: 'github.com/sathya',
+    value: 'https://github.com/ssathyasai',
     href: personalInfo.github,
   },
   {
     icon: FiLinkedin,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/sathya',
+    value: 'linkedin.com/in/ssathyasai',
     href: personalInfo.linkedin,
   },
 ];

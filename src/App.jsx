@@ -1,4 +1,4 @@
-import { ThemeProvider } from './context/ThemeContext';
+import { ThemeProvider } from './ThemeContext';
 import ScrollProgress from './components/ScrollProgress';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';

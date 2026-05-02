@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail, FiHeart } from 'react-icons/fi';
-import { personalInfo } from '../data/portfolioData';
-import { useTheme } from '../context/ThemeContext';
+import { personalInfo } from '../portfolioData';
+import { useTheme } from '../ThemeContext';
 
 const socials = [
   { icon: FiGithub, href: personalInfo.github, label: 'GitHub' },

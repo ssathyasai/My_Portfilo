@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
-import { skills } from '../data/portfolioData';
-import { useTheme } from '../context/ThemeContext';
+import { skills } from '../portfolioData';
+import { useTheme } from '../ThemeContext';
 import SectionHeading from './SectionHeading';
-import { useInView } from '../hooks/useInView';
+import { useInView } from '../useInView';
 
 function SkillBar({ name, level, delay = 0 }) {
   const { isDark } = useTheme();

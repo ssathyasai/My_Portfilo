@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FiBriefcase, FiCalendar, FiCheckCircle } from 'react-icons/fi';
-import { experience } from '../data/portfolioData';
-import { useTheme } from '../context/ThemeContext';
+import { experience } from '../portfolioData';
+import { useTheme } from '../ThemeContext';
 import SectionHeading from './SectionHeading';
 
 export default function Experience() {

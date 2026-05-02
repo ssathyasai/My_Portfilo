@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { HiSun, HiMoon, HiMenu, HiX } from 'react-icons/hi';
-import { useTheme } from '../context/ThemeContext';
+import { useTheme } from '../ThemeContext';
 
 const navLinks = [
   { label: 'About', href: '#about' },
@@ -49,9 +49,9 @@ export default function Navbar() {
           href="#hero"
           onClick={(e) => { e.preventDefault(); handleNavClick('#hero'); }}
           className="text-xl font-bold gradient-text"
-          aria-label="Sathya - Home"
+          aria-label="Sathyasai - Home"
         >
-          &lt;Sathya /&gt;
+          &lt;Sathyasai /&gt;
         </a>
 
         {/* Desktop nav */}

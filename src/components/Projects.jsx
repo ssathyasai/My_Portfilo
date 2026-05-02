@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
-import { FiGithub, FiExternalLink, FiStar } from 'react-icons/fi';
-import { projects } from '../data/portfolioData';
-import { useTheme } from '../context/ThemeContext';
+import { FiGithub, FiStar } from 'react-icons/fi';
+import { MdOutlineRocketLaunch } from 'react-icons/md';
+import { projects } from '../portfolioData';
+import { useTheme } from '../ThemeContext';
 import SectionHeading from './SectionHeading';
 
 function ProjectCard({ project, index }) {
@@ -38,7 +39,7 @@ function ProjectCard({ project, index }) {
           transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut', delay: index * 0.5 }}
           className="text-6xl opacity-30"
         >
-          {['🛒', '🤖', '📊', '✅'][index] || '💻'}
+          {project.icon || '💻'}
         </motion.div>
         {project.featured && (
           <span
@@ -94,11 +95,16 @@ function ProjectCard({ project, index }) {
               href={project.live}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg text-white transition-all duration-200 hover:opacity-90"
+              className="relative flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg text-white transition-all duration-200 hover:opacity-90 hover:scale-105"
               style={{ background: 'linear-gradient(135deg, #6c63ff, #00d4ff)' }}
               aria-label={`View live demo of ${project.title}`}
             >
-              <FiExternalLink size={13} /> Live Demo
+              {/* pulse ring */}
+              <span className="absolute -top-0.5 -right-0.5 flex h-2.5 w-2.5" aria-hidden="true">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#00d4ff] opacity-60" />
+                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#00d4ff]" />
+              </span>
+              <MdOutlineRocketLaunch size={14} /> Live Demo
             </a>
           )}
         </div>

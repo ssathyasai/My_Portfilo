@@ -113,7 +113,7 @@ export const experience = [
   {
     id: 1,
     role: 'Data Science Intern',
-    company: 'Celebal Technologies',
+    company: 'CEI Celebal Excellence Internship',
     duration: '2025',
     type: 'Excellence Internship',
     skills: ['ML', 'DL', 'GenAI'],

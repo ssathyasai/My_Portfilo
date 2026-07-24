@@ -81,7 +81,7 @@ export const projects = [
       'A spam detection system designed to identify and filter spam messages efficiently, providing accurate and real-time message classification through a web application.',
     tech: ['HTML', 'CSS', 'JavaScript', 'Python Libraries', 'Deep Learning'],
     github: 'https://github.com/ssathyasai/SMS_Spam_Transformer_Model.git',
-    live: 'https://data-dashboard-demo.vercel.app',
+    live: 'https://smsspamtransformermodel-y3.streamlit.app/',
     icon: '🛡️',
     featured: false,
   },

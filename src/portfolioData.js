@@ -148,3 +148,34 @@ export const experience = [
     ],
   },
 ];
+
+export const certifications = [
+  {
+    id: 1,
+    title: 'Data Science & AI Virtual Internship',
+    issuer: 'Celebal Technologies',
+    date: '2026',
+    credentialUrl: '#',
+    skills: ['Machine Learning', 'Deep Learning', 'Generative AI', 'Python'],
+    icon: '📜',
+  },
+  {
+    id: 2,
+    title: 'Data Science Master Virtual Internship',
+    issuer: 'Altair',
+    date: '2024',
+    credentialUrl: '#',
+    skills: ['Data Analysis', 'Predictive Modeling', 'Data Visualization'],
+    icon: '🎓',
+  },
+  {
+    id: 3,
+    title: 'Data Analytics Process Automation',
+    issuer: 'Alteryx',
+    date: '2025',
+    credentialUrl: '#',
+    skills: ['ETL Workflows', 'Data Preparation', 'Process Automation'],
+    icon: '⚡',
+  },
+];
+

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FiGithub, FiStar } from 'react-icons/fi';
 import { MdOutlineRocketLaunch } from 'react-icons/md';
-import { projects } from '../portfolioData';
+import { projects, personalInfo } from '../portfolioData';
 import { useTheme } from '../ThemeContext';
 import SectionHeading from './SectionHeading';
 
@@ -143,7 +143,7 @@ export default function Projects() {
           className="text-center mt-10"
         >
           <a
-            href="https://github.com/sathya"
+            href={personalInfo.github || 'https://github.com/ssathyasai'}
             target="_blank"
             rel="noopener noreferrer"
             className={`inline-flex items-center gap-2 text-sm font-semibold transition-colors duration-200 hover:text-[#6c63ff] ${

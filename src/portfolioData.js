@@ -65,28 +65,17 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: 'MediConnect',
+    title: 'Memory-Augmented Chatbot',
     description:
-      'A user-friendly healthcare platform that simplifies personal health management, improves accessibility, and helps users stay connected with essential healthcare services.',
-    tech: ['HTML5', 'CSS3', 'JavaScript'],
-    github: 'https://github.com/ssathyasai/mediconnect.git',
-    live: 'https://mediconnect-gules.vercel.app/',
-    icon: '🏥',
+      'An intelligent, production-ready conversational AI platform featuring Hybrid RAG, Neo4j Knowledge Graph integration, LangGraph orchestration, and real-time RAG quality analytics.',
+    tech: ['Python', 'LangGraph', 'Streamlit', 'FAISS', 'Neo4j', 'MongoDB'],
+    github: 'https://github.com/ssathyasai/memory-augmented-chatbot.git',
+    live: 'https://memory-augmented-c.streamlit.app/',
+    icon: '🧠',
     featured: true,
   },
   {
     id: 2,
-    title: 'CleanX',
-    description:
-      'A data transformation platform that automates CSV data cleaning and builds reliable, structured datasets for seamless analysis and model readiness.',
-    tech: ['Python', 'Python Libraries', 'HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/ssathyasai/CleanX.git',
-    live: null,
-    icon: '🧹',
-    featured: true,
-  },
-  {
-    id: 3,
     title: 'SMS Spam Transformer Model',
     description:
       'A spam detection system designed to identify and filter spam messages efficiently, providing accurate and real-time message classification through a web application.',
@@ -97,14 +86,25 @@ export const projects = [
     featured: false,
   },
   {
-    id: 4,
-    title: 'Memory-Augmented Chatbot',
+    id: 3,
+    title: 'MediConnect',
     description:
-      'An intelligent, production-ready conversational AI platform featuring Hybrid RAG, Neo4j Knowledge Graph integration, LangGraph orchestration, and real-time RAG quality analytics.',
-    tech: ['Python', 'LangGraph', 'Streamlit', 'FAISS', 'Neo4j', 'MongoDB'],
-    github: 'https://github.com/ssathyasai/memory-augmented-chatbot.git',
-    live: 'https://memory-augmented-c.streamlit.app/',
-    icon: '🧠',
+      'A user-friendly healthcare platform that simplifies personal health management, improves accessibility, and helps users stay connected with essential healthcare services.',
+    tech: ['HTML5', 'CSS3', 'JavaScript'],
+    github: 'https://github.com/ssathyasai/mediconnect.git',
+    live: 'https://mediconnect-gules.vercel.app/',
+    icon: '🏥',
+    featured: true,
+  },
+  {
+    id: 4,
+    title: 'CleanX',
+    description:
+      'A data transformation platform that automates CSV data cleaning and builds reliable, structured datasets for seamless analysis and model readiness.',
+    tech: ['Python', 'Python Libraries', 'HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/ssathyasai/CleanX.git',
+    live: null,
+    icon: '🧹',
     featured: false,
   },
 ];

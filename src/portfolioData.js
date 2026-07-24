@@ -98,13 +98,13 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'Civic 360',
+    title: 'Memory-Augmented Chatbot',
     description:
-      'CivicConnect is a civic engagement platform that connects citizens with local authorities for issue reporting, resolution tracking, and community collaboration.',
-    tech: ['React', 'Node.js', 'Express js', 'MongoDB', 'Tailwind CSS'],
-    github: 'https://github.com/ssathyasai/Civic-360.git',
-    live: 'https://taskmanager-demo.vercel.app',
-    icon: '🏛️',
+      'An intelligent, production-ready conversational AI platform featuring Hybrid RAG, Neo4j Knowledge Graph integration, LangGraph orchestration, and real-time RAG quality analytics.',
+    tech: ['Python', 'LangGraph', 'Streamlit', 'FAISS', 'Neo4j', 'MongoDB'],
+    github: 'https://github.com/ssathyasai/memory-augmented-chatbot.git',
+    live: 'https://memory-augmented-c.streamlit.app/',
+    icon: '🧠',
     featured: false,
   },
 ];

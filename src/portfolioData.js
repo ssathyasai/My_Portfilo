@@ -70,7 +70,7 @@ export const projects = [
       'A user-friendly healthcare platform that simplifies personal health management, improves accessibility, and helps users stay connected with essential healthcare services.',
     tech: ['HTML5', 'CSS3', 'JavaScript'],
     github: 'https://github.com/ssathyasai/mediconnect.git',
-    live: 'https://ecommerce-demo.vercel.app',
+    live: 'https://mediconnect-gules.vercel.app/',
     icon: '🏥',
     featured: true,
   },

@@ -112,10 +112,10 @@ export const projects = [
 export const experience = [
   {
     id: 1,
-    role: 'Data Science Intern',
-    company: 'CEI Celebal Excellence Internship',
-    duration: '2025',
-    type: 'Excellence Internship',
+    role: 'CEI-Celebal Excellence Internship',
+    company: 'Celebal Technologies',
+    duration: '2026',
+    type: 'Virtual Internship',
     skills: ['ML', 'DL', 'GenAI'],
     bullets: [
       'Completed hands-on learning in AI & Data Science',

@@ -112,28 +112,39 @@ export const projects = [
 export const experience = [
   {
     id: 1,
+    role: 'Data Science Intern',
+    company: 'Celebal Technologies',
+    duration: '2025',
+    type: 'Excellence Internship',
+    skills: ['ML', 'DL', 'GenAI'],
+    bullets: [
+      'Completed hands-on learning in AI & Data Science',
+      'Worked on practical exercises and assignments',
+      'Strengthened skills in developing projects of AI',
+    ],
+  },
+  {
+    id: 2,
     role: 'Data Science Master Virtual Intern',
     company: 'Altair',
     duration: '2024',
     type: 'Virtual Internship',
     bullets: [
-      "Analysed real-world datasets to identify patterns and trends",
-	    "Applied machine learning concepts for basic predictive tasks",
-	    "Created visualizations to communicate insights effective" 
-,
+      'Analysed real-world datasets to identify patterns and trends',
+      'Applied machine learning concepts for basic predictive tasks',
+      'Created visualizations to communicate insights effectively',
     ],
   },
   {
-    id: 2,
+    id: 3,
     role: 'Data Analytics Process Automation',
     company: 'Alteryx',
     duration: '2025',
     type: 'Virtual Internship',
     bullets: [
-      "Performed end-to-end data cleaning, filtering and joining using Designer workflows",
-      "Strengthened practical data preparation and workflow automation skills",
-      "Applied data transformation techniques to prepare analysis-ready datasets"
-
+      'Performed end-to-end data cleaning, filtering and joining using Designer workflows',
+      'Strengthened practical data preparation and workflow automation skills',
+      'Applied data transformation techniques to prepare analysis-ready datasets',
     ],
   },
 ];

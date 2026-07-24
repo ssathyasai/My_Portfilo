@@ -111,6 +111,24 @@ export default function Experience() {
                     </motion.li>
                   ))}
                 </ul>
+
+                {/* Skills tags */}
+                {exp.skills && exp.skills.length > 0 && (
+                  <div className="flex flex-wrap gap-2 mt-4 pt-3 border-t border-slate-700/20">
+                    {exp.skills.map((skill, si) => (
+                      <span
+                        key={si}
+                        className={`text-xs px-2.5 py-1 rounded-md font-medium ${
+                          isDark
+                            ? 'bg-[#6c63ff]/20 text-[#a89cff] border border-[#6c63ff]/30'
+                            : 'bg-[#6c63ff]/10 text-[#6c63ff] border border-[#6c63ff]/20'
+                        }`}
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
             </motion.article>
           ))}
